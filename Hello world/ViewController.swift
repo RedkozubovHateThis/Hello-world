@@ -12,10 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet var helloLabel: UILabel!
     @IBOutlet var showButton: UIButton!
+    @IBOutlet var secondVCButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         helloLabel.isHidden = true
+        secondVCButton.layer.cornerRadius = 5
         showButton.layer.cornerRadius = 5
     }
 
